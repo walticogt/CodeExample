@@ -1,0 +1,13 @@
+C:\Users\walti\source\repos\EsPar_Impar\EsPar_Impar\bin\Debug\netcoreapp2.1\EsPar_Impar.deps.json
+C:\Users\walti\source\repos\EsPar_Impar\EsPar_Impar\bin\Debug\netcoreapp2.1\EsPar_Impar.runtimeconfig.json
+C:\Users\walti\source\repos\EsPar_Impar\EsPar_Impar\bin\Debug\netcoreapp2.1\EsPar_Impar.runtimeconfig.dev.json
+C:\Users\walti\source\repos\EsPar_Impar\EsPar_Impar\bin\Debug\netcoreapp2.1\EsPar_Impar.dll
+C:\Users\walti\source\repos\EsPar_Impar\EsPar_Impar\bin\Debug\netcoreapp2.1\EsPar_Impar.pdb
+C:\Users\walti\source\repos\EsPar_Impar\EsPar_Impar\obj\Debug\netcoreapp2.1\EsPar_Impar.csproj.AssemblyReference.cache
+C:\Users\walti\source\repos\EsPar_Impar\EsPar_Impar\obj\Debug\netcoreapp2.1\EsPar_Impar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\walti\source\repos\EsPar_Impar\EsPar_Impar\obj\Debug\netcoreapp2.1\EsPar_Impar.AssemblyInfoInputs.cache
+C:\Users\walti\source\repos\EsPar_Impar\EsPar_Impar\obj\Debug\netcoreapp2.1\EsPar_Impar.AssemblyInfo.cs
+C:\Users\walti\source\repos\EsPar_Impar\EsPar_Impar\obj\Debug\netcoreapp2.1\EsPar_Impar.csproj.CoreCompileInputs.cache
+C:\Users\walti\source\repos\EsPar_Impar\EsPar_Impar\obj\Debug\netcoreapp2.1\EsPar_Impar.dll
+C:\Users\walti\source\repos\EsPar_Impar\EsPar_Impar\obj\Debug\netcoreapp2.1\EsPar_Impar.pdb
+C:\Users\walti\source\repos\EsPar_Impar\EsPar_Impar\obj\Debug\netcoreapp2.1\EsPar_Impar.genruntimeconfig.cache

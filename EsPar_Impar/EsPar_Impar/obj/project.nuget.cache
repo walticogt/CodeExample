@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "/21ewOyw7LCaEQryzIhYnAUpxr2y+zO73FcdKOAgq3+ETvoMNuBB3kW2R+7ZorFlhG2+jP6O9az9YQPJo6IyGg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\walti\\source\\repos\\EsPar_Impar\\EsPar_Impar\\EsPar_Impar.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\walti\\.nuget\\packages\\microsoft.netcore.app\\2.1.0\\microsoft.netcore.app.2.1.0.nupkg.sha512",
+    "C:\\Users\\walti\\.nuget\\packages\\microsoft.netcore.dotnetapphost\\2.1.0\\microsoft.netcore.dotnetapphost.2.1.0.nupkg.sha512",
+    "C:\\Users\\walti\\.nuget\\packages\\microsoft.netcore.dotnethostpolicy\\2.1.0\\microsoft.netcore.dotnethostpolicy.2.1.0.nupkg.sha512",
+    "C:\\Users\\walti\\.nuget\\packages\\microsoft.netcore.dotnethostresolver\\2.1.0\\microsoft.netcore.dotnethostresolver.2.1.0.nupkg.sha512",
+    "C:\\Users\\walti\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.0\\microsoft.netcore.platforms.2.1.0.nupkg.sha512",
+    "C:\\Users\\walti\\.nuget\\packages\\microsoft.netcore.targets\\2.1.0\\microsoft.netcore.targets.2.1.0.nupkg.sha512",
+    "C:\\Users\\walti\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

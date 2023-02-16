@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.1": {
+      "EsPar_Impar/1.0.0": {
+        "runtime": {
+          "EsPar_Impar.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EsPar_Impar/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
