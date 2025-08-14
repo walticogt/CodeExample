@@ -1,0 +1,19 @@
+Para compilar:
+ts-node interface-clase.ts
+
+Para configurar en el Visual Code, copiar package.json, tsconfig.json
+
+Desde el terminal en la carpeta
+npm install ts-node typescript --save-dev
+
+editar launch.json con el nombre del ts a ejecutar.
+
+---
+
+/Users/oscar/Documents/Projects/Typescript/
+├── node_modules/
+├── src/
+│   ├── interface-clase.ts
+├── dist/
+├── package.json
+├── tsconfig.json

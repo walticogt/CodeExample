@@ -1,0 +1,105 @@
+// payment.ts
+
+// **Interfaces para diferentes métodos de pago**
+
+interface CreditCardPayment {
+  type: "creditCard";
+  cardNumber: string;
+  cardHolder: string;
+  cvv: string;
+  expiryDate: string;
+}
+
+interface PayPalPayment {
+  type: "paypal";
+  email: string;
+}
+
+interface BankTransferPayment {
+  type: "bankTransfer";
+  accountNumber: string;
+  bankCode: string;
+}
+
+// **Union Type que combina todos los métodos de pago posibles**
+
+type PaymentMethod = CreditCardPayment | PayPalPayment | BankTransferPayment;
+
+// **Interfaz para información de verificación**
+
+interface Verification {
+  verified: boolean;
+  verificationDate: Date;
+}
+
+// **Intersection Type que combina un método de pago con la información de verificación**
+
+type VerifiedPayment = PaymentMethod & Verification;
+
+// **Funciones para procesar y verificar pagos**
+
+function processPayment(payment: PaymentMethod): void {
+  switch (payment.type) {
+    case "creditCard":
+      console.log("Procesando pago con tarjeta de crédito...");
+      console.log(`Tarjeta: ${payment.cardNumber}`);
+      break;
+    case "paypal":
+      console.log("Procesando pago con PayPal...");
+      console.log(`Cuenta PayPal: ${payment.email}`);
+      break;
+    case "bankTransfer":
+      console.log("Procesando transferencia bancaria...");
+      console.log(`Cuenta: ${payment.accountNumber}`);
+      break;
+    default:
+      console.log("Método de pago no soportado.");
+  }
+}
+
+function verifyPayment(payment: PaymentMethod): VerifiedPayment {
+  // Simulación de proceso de verificación
+  const isVerified = true; // Aquí podrías implementar lógica real de verificación
+  const verificationDate = new Date();
+
+  return {
+    ...payment,
+    verified: isVerified,
+    verificationDate,
+  };
+}
+
+// **Ejemplos de uso**
+
+const myCreditCardPayment: CreditCardPayment = {
+  type: "creditCard",
+  cardNumber: "4111 1111 1111 1111",
+  cardHolder: "Oscar Martinez",
+  cvv: "123",
+  expiryDate: "12/25",
+};
+
+const myPayPalPayment: PayPalPayment = {
+  type: "paypal",
+  email: "oscar@example.com",
+};
+
+const myBankTransferPayment: BankTransferPayment = {
+  type: "bankTransfer",
+  accountNumber: "ES7620770024003102575766",
+  bankCode: "BBVAESMMXXX",
+};
+
+// **Procesando los pagos**
+
+processPayment(myCreditCardPayment);
+processPayment(myPayPalPayment);
+processPayment(myBankTransferPayment);
+
+// **Verificando los pagos**
+
+const verifiedCreditCardPayment = verifyPayment(myCreditCardPayment);
+const verifiedPayPalPayment = verifyPayment(myPayPalPayment);
+
+console.log("Pago con tarjeta verificado:", verifiedCreditCardPayment);
+console.log("Pago con PayPal verificado:", verifiedPayPalPayment);
